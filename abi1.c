@@ -24,3 +24,10 @@ Enter your first name <input type="text" [{ngModel}]="fname" />
 <br>
 <b>Welcome {{fname}}</b>
 
+
+
+
+fname : string;
+  constructor(){
+    this.fname="";
+  }
